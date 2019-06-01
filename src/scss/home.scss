@@ -1,0 +1,215 @@
+$px:25;
+html,
+body {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+#home{
+  width:100%;
+  background: #fff;
+  margin-bottom: 48/$px+rem;
+  .search{
+    height:48/$px+rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .searchleft{
+      margin-left:8/$px+rem;
+      height:21/$px+rem;
+      width:57/$px+rem;
+      font-size: 14/$px+rem;
+      color:#666;
+      i{
+        font-size:12/$px+rem;
+      }
+      
+    }
+    .searchright{
+        width:294/$px+rem;
+        height:32/$px+rem;
+        margin-left:8/$px+rem;
+        background: #F3F3F3;
+        color:#C0C0C0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  .firstbanner{
+    width:100%;
+    height:161/$px+rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .swiper-container{
+      height:156/$px+rem;
+      width:355/$px+rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide{
+        
+        width:355/$px+rem;
+
+        img{
+          // height:140/$px+rem;
+          width:100%;
+
+        }
+      }
+      
+      .swiper-pagination{
+        margin-top: 140/$px+rem;
+        height:8.8/$px+rem;
+      }
+    }
+    
+  }
+  .sellPoints{
+    width:362.2/$px+rem;
+    height:18/$px+rem;
+    margin:8/$px+rem 6.4/$px+rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      height:18/$px+rem; 
+      display: flex;
+      align-items: center;
+      font-size: 12/$px+rem;
+      img{
+        width:16/$px+rem;
+        height:16/$px+rem;
+        margin-right:2/$px+rem;
+
+      }
+    }
+  }
+  .firstwhite{
+    height:16/$px+rem;
+  }
+  .photo{
+    width:100%;
+  }
+  .smallMenu{
+    margin:8/$px+rem;
+    width:359/$px+rem;
+    height:164/$px+rem;
+    .small-menu,
+    .small-menu-wrapper
+    {
+      width:100%;
+      height: 100%;
+    }
+    .small-menu-slide{
+      height:148/$px+rem;
+      display: flex;
+      flex-flow: wrap;
+      div{
+        width:71.8/$px+rem;
+        height:74/$px+rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+          height: 40/$px+rem;
+          width:40/$px+rem;
+        }
+        span{
+          display: block;
+          padding-top:8/$px+rem;
+          width:71.8/$px+rem;
+          height:18/$px+rem;
+          font-size: 12/$px+rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .tese{
+    width:355/$px+rem;
+    height:220/$px+rem;
+    margin:5/$px+rem 10/$px+rem;
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img{
+        width:174/$px+rem;
+        height:220/$px+rem;
+      }
+    }
+  }
+  .lunbophoto{
+    width:355/$px+rem;
+    margin: 0 10/$px+rem;
+  }
+  .disgussLike{
+    h3{
+    height: 40/$px+rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16/$px+rem;
+    color:#111;
+    }
+    ul{
+      margin:10/$px+rem;
+      width:355/$px+rem;
+
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      li{
+        width:174.5/$px+rem;
+        height: 300/$px+rem;
+        img{
+          width:100%;
+        }
+        .title{
+          padding:8/$px+rem;
+          padding-bottom: 0;
+          width:100%;
+          color: #333;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        .activity-label{
+          display: inline-block;
+          padding-left: 8/$px+rem;
+          border:1px solid #FF550F;
+          height: 24/$px+rem;
+          color:#FF550F;
+          font-size: 12/$px+rem;
+          line-height:24/$px+rem;
+          border-radius:10/$px+rem;
+        }
+        .pricediv{
+          padding:0 8/$px+rem;
+          margin-bottom: 8/$px+rem;
+          .price{
+            font-size: 14/$px+rem;
+            color: #FF550F;
+          }
+          .max{
+            display: inline-block;
+            margin-left:7/$px+rem;
+            background: #514E4A;
+            color:#D7BD91;
+          }
+          .fa{
+            
+            display:inline-block;
+            margin-right:7/$px+rem;
+            float: right!important;
+            color: #FF550F!important;
+          }
+        }
+      }
+
+    }
+  }
+}

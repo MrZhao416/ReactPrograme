@@ -12,7 +12,11 @@
     "react-scripts": "3.0.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
+<<<<<<< HEAD
+    "swiper": "^4.5.0"
+=======
     "sass-loader": "^7.1.0"
+>>>>>>> 5070cf3ab4c1a0c94e41441320c6dcae997d447e
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +39,12 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+=======
   "devDependencies": {}
+>>>>>>> 5070cf3ab4c1a0c94e41441320c6dcae997d447e
 }

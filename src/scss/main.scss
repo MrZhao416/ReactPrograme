@@ -16,7 +16,7 @@ body {
   bottom: 0;
   justify-content: space-around;
   align-items: center;
-
+  z-index:999;
   a {
     display: flex;
     flex-direction: column;

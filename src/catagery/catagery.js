@@ -4,7 +4,7 @@ import actionCreate from './actionCreator'
 import Catageries from './catageries'
 import Catagerytjfl from './catagerytjfl'
 
-import { BrowserRouter as Router, Route, Link, NavLink, Switch ,Redirect} from 'react-router-dom'
+import { HashRouter as Router, Route, Link, NavLink, Switch ,Redirect} from 'react-router-dom'
 class Catagary extends Component {
     constructor(props) {
         super(props);

@@ -26,10 +26,7 @@ class Catagaries extends Component {
             })
         }
     }
-    componentDidMount() {
-        var id = this.props.match.params.id;
-        this.getData(id);
-    }
+
     componentDidUpdate() {
         var id = this.props.match.params.id;
         this.getData(id)

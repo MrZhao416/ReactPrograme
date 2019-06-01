@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './scss/main.scss';
-import { BrowserRouter as Router, Route, Link, NavLink, Redirect, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Link, NavLink, Redirect, Switch } from 'react-router-dom'
 import Home from './home/home'
 import Catagery from './catagery/catagery'
 import Cart from './cart/cart'

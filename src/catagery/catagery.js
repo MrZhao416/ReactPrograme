@@ -20,7 +20,8 @@ class Catagary extends Component {
 
     render() {
         let list = this.props.catagery.list
-        let keyword = this.props.catagery.keyword
+        let keyword = this.props.catagery.keyword;
+        console.log(this.props);
         return <div id="catagery">
             <div className="catagery_search">
                 <div onClick={this.goSearch}>
@@ -31,12 +32,12 @@ class Catagary extends Component {
             <div className="leftWrap">
                 <ul className="leftNav">
                     <li>
-                        <NavLink to={'/catagery/tjfl'} >推荐分类</NavLink>
+                        <NavLink to={'/catagery/tjfl'} activeClassName="activeStyle">推荐分类</NavLink>
                     </li>
                     {
                         list.map((item) => {
                             return <li key={item.Id}>
-                                <NavLink to={'/catagery/' + item.Id} key={item.Id}>{item.Name}</NavLink>
+                                <NavLink to={'/catagery/' + item.Id} key={item.Id} activeClassName="activeStyle">{item.Name}</NavLink>
                             </li>
                         })
                     }

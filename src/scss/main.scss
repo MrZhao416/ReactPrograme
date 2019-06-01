@@ -255,17 +255,17 @@ body {
       height: 32 / $px + rem;
       border: none;
       background-color: #f0f0f0;
-      border-radius: 10/$px+rem;
-      padding-left: 10/$px+rem; 
+      border-radius: 10 / $px + rem;
+      padding-left: 10 / $px + rem;
     }
     button {
       width: 60 / $px + rem;
       height: 32 / $px + rem;
       border: none;
       padding: 0;
-      background-color: #4CD964;
+      background-color: #4cd964;
       color: #fff;
-      border-radius: 10/$px+rem;
+      border-radius: 10 / $px + rem;
       outline: none;
     }
   }
@@ -275,17 +275,57 @@ body {
     margin-left: 12 / $px + rem;
   }
   ul {
-      height: 144/$px+rem;
+    height: 144 / $px + rem;
     li {
       width: 30%;
       height: 37 / $px + rem;
-      margin: 6/$px+rem;
-      padding: 0 /$px+rem;
+      margin: 6 / $px + rem;
+      padding: 0 / $px + rem;
       float: left;
       background-color: #fff;
       line-height: 37 / $px + rem;
       text-align: center;
-      font-size: 14/$px+rem;
+      font-size: 14 / $px + rem;
+    }
+  }
+}
+.cart {
+  width: 100%;
+  position: relative;
+  padding: 49/$px+rem 0;
+  button{
+    width: 144/$px+rem;
+    height: 44/$px+rem;
+    padding: 0 48/$px+rem;
+    border:none;
+    position: absolute;
+    background-color: #49AA34;
+    top:260/$px+rem;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+    color:#fff;
+    font-size: 16/$px+rem;
+    border-radius: 5/$px+rem;
+  }
+  .cart-wrap {
+    height: 225/$px+rem;
+    padding: 0 18.75/$px+rem;
+    position: relative;
+    width: 100%;
+    img{
+      width: 100%;
+    }
+    p{
+      position: absolute;
+      bottom:0;
+      top:180/$px+rem;
+      left:0;
+      right:0;
+      margin: auto;
+      text-align: center;
+      color:#ccc;
     }
   }
 }

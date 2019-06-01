@@ -12,6 +12,8 @@ body{
   align-items: center;
 
   .swiper-container{
+    width: 100%;
+    overflow: hidden;
     height:140/$px+rem;
     width:100%;
     overflow: hidden;

@@ -13,6 +13,8 @@ body{
 
   .swiper-container{
     height:140/$px+rem;
+    width:100%;
+    overflow: hidden;
     display: block;
     img{
       height:100%;
